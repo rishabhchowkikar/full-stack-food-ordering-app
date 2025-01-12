@@ -23,7 +23,8 @@ This is a Full Stack Food Ordering Application designed to provide users with an
 - **MongoDB**: For database management.
 
 ### Deployment:
-- Deployed on **Render** for both front-end and back-end.
+- Deployed on **Render** for both front-end and back-end. The application is hosted entirely on Render, ensuring seamless integration between the frontend and backend components.
+- **Live Project:** [TastyGo Food Ordering App](https://tastygo-food-ordering-app.onrender.com/)
 
 ## Setup Instructions
 
@@ -77,6 +78,19 @@ Make sure you have the following installed:
    ```env
    REACT_APP_API_URL=http://localhost:5000
    ```
+
+## Limitations and Challenges
+
+### Limitations:
+1. **Deadline Constraints:** Due to time limitations, some functionalities couldn't be implemented or polished to the desired level.
+2. **Scalability:** The current implementation might face challenges under high traffic without further optimization.
+
+### Challenges Faced:
+1. **Deployment Issues:** Deploying both the frontend and backend on Render required troubleshooting various configuration and connection issues.
+2. **Styling Conflicts:** Using both Material-UI and Tailwind CSS occasionally resulted in class conflicts and required additional effort to resolve.
+3. **Time Management:** Balancing feature development with bug fixing under strict deadlines was a significant challenge.
+
+Despite these challenges, this project was a valuable learning experience and successfully delivers a functional and visually appealing food ordering application.
 
 ## Conclusion
 This Full Stack Food Ordering App is a robust and user-friendly platform for managing online food orders. While there are areas for improvement, it demonstrates strong foundational work and serves as a solid starting point for future enhancements. Your feedback and contributions are welcome!
