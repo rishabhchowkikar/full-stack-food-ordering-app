@@ -1,0 +1,13 @@
+{
+  "name": "food-delivery-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix backend && npm install --prefix food_app_frontend && npm run build --prefix food_app_frontend",
+    "start":"npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
